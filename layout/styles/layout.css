@@ -387,3 +387,65 @@ ul.bouton {
 	padding: 2%;
 	background-color: #F4F7F4;
 }
+
+
+
+
+
+
+
+/*********************/
+/**     formulaire   **/
+/*********************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+
+
+fieldset{
+	background-color: lightblue;
+	margin: 30px;
+	display: grid;
+	justify-content: center;
+	padding: 2%;
+}
+legend{
+	color: orange;
+	font-family: 'Playfair display', sans_serif;
+	text-shadow: 2px 2px 5px orange;
+}
+table{
+	display: flex;
+	justify-content: center;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+tr{
+	display: inline-grid;
+}
+td {
+  text-align: left;
+  padding: 5px;
+}
+.form{
+		display: block;
+}
+.formend{
+	display: grid;
+  grid-template-rows: 63% 60%;
+  margin: 4%;
+  padding: 2%;
+}
+.form_bottun{
+	display: grid;
+  grid-template-columns: 50% 50%;
+	justify-items: center;
+}
+.btn{
+	padding: 2%;
+	width: 80px;
+	border-radius: 10px;
+	background-color: #F6C090;
+	text-decoration: none;
+}

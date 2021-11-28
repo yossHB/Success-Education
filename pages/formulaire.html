@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="fontawesome-free/css/fontawesome-all.min.css">
+   <link rel="stylesheet" href="framework.css">
+   <title>Sucess Education</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+  <!-- nav bare -->
+  <header class="header">
+    <!-- logo-->
+    <nav>
+      <a href="#"><img class="navbarlogo" src='../images/demo/logo.png' alt="logo image"></a>
+      <div class="search">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <div class="navbar">
+        <ul class="menu">
+          <li><a >Menu</a>
+            <ul>
+              <li><a href="">Courses</a></li>
+              <li><a href="pages/">Save</a></li>
+              <li><a href="pages/">News</a></li>
+              <li><a href="">SingOut</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><img src='../images/demo/avatar.png' alt="info"></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- formulaire -->
+  <div class="containerforms">
+    <form method="get" class="form">
+      <fieldset class="fieldset">
+        <legend class="legend">Votre identité</legend>
+        <table>
+          <tr>
+            <td><label for="nom">Nom</label></td>
+            <td><input type="text" name="nom" id="nom" /></td>
+          </tr>
+          <tr>
+            <td><label for="prénom">Prénom</label></td>
+            <td><input type="text" name="prénom" id="prénom" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail</label></td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="tel">Numéro de téléphone</label></td>
+            <td><input type="tel" name="tel" id="tel" /></td>
+          </tr>
+          <tr>
+            <td><label for="profession">Profession</label></td>
+            <td>
+              <select name="profession" id="profession">
+                  <option value="Etudient">Etudient</option>
+                  <option value="Employé">Employé</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="prenom">Adresse</label></td>
+            <td><input type="text" name="prenom" id="prenom" /></td>
+          </tr>
+          <tr>
+            <td><label for="pays">Ville</label></td>
+            <td>
+              <select name="pays" id="pays">
+                <option value="Tunis">Tunis</option>
+                <option value="Ariana">Ariana</option>
+                <option value="Sousse">Sousse</option>
+                <option value="Sfax">Sfax</option>
+                <option value="Manouba">Manouba</option>
+                <option value="Beja">Beja</option>
+                <option value="Monastir">Monastir</option>
+                <option value="Kairouan">Kairouan</option>
+                <option value="Bizerte">Bizerte</option>
+                <option value="Jendouba">Jendouba</option>
+                <option value="Gafsa">Gafsa</option>
+                <option value="Nabeul">Nabeul</option>
+                <option value="Le Kef">Gabes</option>
+                <option value="Kasserine">Kasserine</option>
+                <option value="Zaghouan">Zaghouan</option>
+                <option value="Tataouine">Tataouin</option>
+                <option value="Siliana">Siliana</option>
+                <option value="Ben Arous">Ben Arous</option>
+                <option value="Tozeur">Tozeur</option>
+                <option value="Mahdia">Mahdia</option>
+                <option value="Médenine">Médenine</option>
+                <option value="Sidi Bouzid">Sidi Bouzid</option>
+                <option value="Kebili">Kebili</option>
+                <option value="Gabes">Gabes</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <fieldset class="fieldset">
+        <legend class="legend">Informations CB</legend>
+        <div class="form">
+          <p class="payement">
+                 Type de carte bancaire :
+                 <input type="radio" name="souhait" value="Visa" id="Visa" /> <label for="Visa">Visa</label>
+                 <input type="radio" name="souhait" value="Amex" id="Amex" /> <label for="Amex">Amex</label>
+                 <input type="radio" name="souhait" value="MasterCard" id="MasterCard" /> <label for="MasterCard">MasterCard</label>
+
+          </p>
+        </div>
+        <br>
+        <div class="form">
+          <label for="">Code carte bancaire: </label>
+          <input type="text" placeholder="xxxx xxxx xxxx xxxx" /><br />
+        	<br>
+        	<input type="password" placeholder="Code" />
+            <input type="date"/>
+        </div>
+       <br>
+       <div class="form">
+          <input type="text" placeholder="Coupon"/>
+          <input type="button" value="vérifier"/>
+        </div>
+        </fieldset>
+
+        <div class="formend">
+          <p>
+            <input type="checkbox" name="souhait" value="oui" id="oui" />
+            <label for="oui">J'accepte le réglement de la formation</label>
+          </p>
+
+        <div class="form_bottun">
+          <input type="submit" value="submit" class="btn"/>
+          <input type="reset" value="Cancel" class="btn" />
+        </div>
+        </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <footer>
+      <h6 class="sectiontitle">CONTACT</h6>
+      <div class="block">
+        <!-- logo-->
+        <img class="box1" src='../images/demo/logo.png' alt="logo image">
+        <ul class="box2">
+          <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a><span>SuccessEducation</span></li>
+          <li><a class="faicon-google-plus" href="#"><i class='fab'>&#xf0d5;</i></a><span>SuccessEducation</span></li>
+          <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a><span> SuccessEducation</span></li>
+        </ul>
+        <ul class="box3">
+          <li><a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a><span> Fax:71.000.000</span> </li>
+          <li><a class="faicon-phone" href="#" ><i class="fas fa-phone"></i></a> <span>+216 71.000.000</span></li>
+          <li><a class="faicon-email" href="#"><i class="fas fa-envelope"></i></a> <span>Contact@SuccessEducation.com</span></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- copyright -->
+  <div class="copyright">
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved - SuccessEducation Website</p>
+  </div>
+</body>
+</html>
+
+
+</body>
+</html>
