@@ -402,13 +402,16 @@ ul.bouton {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
 
-
+.containerforms{
+	display: grid;
+}
 fieldset{
 	background-color: lightblue;
 	margin: 30px;
 	display: grid;
 	justify-content: center;
 	padding: 2%;
+	width:102%;
 }
 legend{
 	color: orange;
@@ -421,15 +424,16 @@ table{
 	border-collapse: separate;
 	border-spacing: 2px;
 }
-tr{
-	display: inline-grid;
-}
+
 td {
   text-align: left;
   padding: 5px;
 }
 .form{
-		display: block;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
 }
 .formend{
 	display: grid;
