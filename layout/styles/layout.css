@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 15px;
+	 font-family: 'Josefin Sans', sans-serif ;
 }
 /*********************/
 /*** nav bar style ***/
@@ -207,6 +208,7 @@ nav {
   cursor: pointer;
 	height: 30px;
 	padding-top: 3px;
+	padding-left: 8px;
 }
 .buttons{
 		align-items:end;
@@ -317,4 +319,71 @@ footer{
 	text-align: center;
 	font-size: 17px;
 	width: 100%;
+}
+/*********************/
+/**     formation page   **/
+/*********************/
+.maintitles{
+	padding-top: 23px;
+	font-size: 30px;
+	display: grid;
+	background-color:#F6C090;
+	height: 61px;
+	width: 45%;
+	justify-content:center;
+	text-align:center;
+	color:#FFFFFF;
+}
+/** title **/
+.titel{
+	display: grid;
+	align-content: stretch;
+	justify-items: center;
+	margin: 3%;
+}
+/** courses box **/
+.coursebox{
+	background-color: #F4F7F4;
+	height: 326px;
+	width: 95%;
+	display: grid;
+	align-content: stretch;
+	margin: 3%;
+	grid-template-columns: 48% 50%;
+	justify-content: space-between
+}
+.video{
+	display: grid;
+	align-items: center;
+	margin-left: 18px;
+	margin-right: -21px;
+}
+.plan{
+	background-color: #E8F3F6;
+	padding: 6%;
+	margin: 5%;
+}
+.text{
+	 background-color: white;
+}
+.plan_text{
+	display: grid;
+	height: 40px;
+	color: black;
+	align-content: center;
+	justify-content: center;
+}
+.video img{
+	width: 100%;
+	height: 80%;
+}
+ul.bouton {
+	display: flex;
+	justify-content: space-around;
+}
+/** description part **/
+.description{
+	margin: 3%;
+	padding: 2%;
+	background-color: #F4F7F4;
 }
