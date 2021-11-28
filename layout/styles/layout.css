@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+/*********************/
+/*** nav bar style ***/
+/*********************/
+nav {
+	background-color: #E6F4F4;
+	height: 60px;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/** logo **/
+.navbarlogo{
+	width: 240px;
+	height: auto;
+	margin-top: 8px;
+}
+/** menu + compte **/
+.navbar ul{
+	display: flex;
+	list-style:none;
+	margin-right: 4%;
+	background: #E6F4F4;
+}
+.navbar ul li{
+	position: relative;
+	list-style: none;
+	display:inline-block;
+}
+.navbar li a{
+	display:block;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color:black;
+}
+.navbar ul li a:hover{
+	color:#E6F4F4;
+	background-color:#F59545;
+}
+.navbar ul ul{
+	position: absolute;
+	display: none;
+}
+.navbar ul li:hover > ul{
+	display: block;
+}
+.menu li:first-child{
+	width: 100px;
+	text-align: center;
+}
+.navbar ul ul li{
+	width: 100px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+/** search part **/
+.search input[type=text] {
+
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 20px;
+}
+.search button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.search button:hover {
+  background: #ccc;
+}
+/*********************/
+/**    main body    **/
+/*********************/
+/** image background **/
+.images img{
+	display:block;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 45%;
+	justify-content: center;
+}
+/*********************/
+/** boxes **/
+.bigbox{
+	margin-top: -15%;
+}
+.boxes{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	justify-content:center;
+
+}
+.container1, .container2, .container3, .container4{
+	font-size: 17px;
+	text-align: center;
+	margin: 10%;
+	justify-content: center;
+	height: 100%;
+	padding-top: 20%;
+	border-radius: 10px;
+}
+.container1{
+	background-color: #97A9BD;
+
+}
+.container2{
+	background-color:#A197BD;
+}
+.container3{
+	background-color: #BDA697;
+}
+.container4 {
+	background-color: #97BDAB;
+}
+.container1 a i,.container2 a i,.container3 a i,.container4 a i{
+	color: gray ;
+}
+/** hovers **/
+.boxes article:hover:nth-child(1){color:#97A9BD; background-color:#F9E8D7;}
+.boxes article:hover:nth-child(2){color:#A197BD; background-color:#F9E8D7;}
+.boxes article:hover:nth-child(3){color:#BDA697; background-color:#F9E8D7;}
+.boxes article:hover:nth-child(4){color:#97BDAB; background-color:#F9E8D7;}
+
+/** offre box**/
+.ceneterbox{
+	align-items: center;
+}
+.offer{
+	background-color: #97A9BD;
+	font-size: 17px;
+	text-align: center;
+	margin-left: 35%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding:2%;
+	border-radius: 10px;
+	width: 30%;
+}
+.offer a i{
+	color: black;
+}
+
+
+
+
+
+/*********************/
+/** couses box **/
+/*********************/
+
+.cards_color{
+	margin-top: 200px;
+	padding: 4%;
+	background-color:#F59545;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	padding: 2%;
+	margin: 5%;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: -23%;
+
+}
+.cards ul{
+	list-style:none;
+}
+.card-image img{
+	width: 150px;
+}
+.card1,.card2,.card3{
+	border-radius: 10px;
+	margin: 7%;
+	text-align: center;
+	padding-top: 10%;
+	padding-right: 3%;
+	padding-left: 3%;
+	font-size: 13px;
+	padding-bottom: 15%;
+	background-color:white;
+	border: 1px solid orange;
+}
+.card1{}
+.card2{}
+.card3{}
+.button-style{
+	color: #ffffff;
+	background-color: #fa9746;
+  font-size: 17px;
+	border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+	height: 30px;
+	padding-top: 3px;
+}
+.buttons{
+		align-items:end;
+		display: grid;
+		width: 102px;
+		height: 32px;
+		margin-top: 7%;
+}
+.list-unstyled{
+	display: grid;
+	place-items: center;
+
+}
+.divider {
+	height: 1px;
+	margin-top: 1.75rem;
+	margin-bottom: 2rem;
+	border: none;
+	background-color: #ccd3df;
+}
+/*********************/
+/** teachers box **/
+/*********************/
+.secondContainer{
+
+}
+
+/*********************/
+/**       guide     **/
+/*********************/
+.image img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.titles{
+	padding-top: 23px;
+	font-size: 30px;
+	display: grid;
+	background-color:#314987;
+	height: 61px;
+	justify-content:center;
+	text-align:center;
+	color:#FFFFFF;
+}
+/*********************/
+/**      footer     **/
+/*********************/
+footer{
+	background-color: #F6C090;
+	color: black;
+	display:grid;
+	justify-content:center;
+	align-items: center;
+	margin: 0;
+}
+/** contact **/
+.sectiontitle{
+	text-align: center;
+	font-size: 30px;
+	padding: 5%;
+}
+.block{
+	background-color: #F6C090;
+	font-size: 20px;
+	color: black;
+	display: grid;
+  grid-template-columns: 45% 57% 57%;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 5%;
+}
+/** logo **/
+.box1{
+	width: 210px;
+	height: auto;
+}
+.box2{
+	list-style:none;
+  display: grid;
+}
+.box2 li,.box3 li{
+	margin: 11px;
+}
+.box3{
+	list-style:none;
+  display: grid;
+}
+/** icons **/
+.block a:hover{color:#E6F4F4;}
+.faicon-dribble:hover{background-color:#EA4C89;}
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-google-plus:hover{background-color:#DB4A39;}
+.faicon-linkedin:hover{background-color:#0E76A8;}
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-vk:hover{background-color:#4E658E;}
+.faicon-phone:hover{background-color:#AFCFA0;}
+.faicon-email:hover{background-color:#993300;}
+.faicon-position:hover{background-color:#3B5998;}
+
+/*********************/
+/**     copyright   **/
+/*********************/
+.copyright{
+	background-color: gray;
+  margin:0;
+	padding:9px;
+	text-align: center;
+	font-size: 17px;
+	width: 100%;
+}
