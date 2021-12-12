@@ -113,17 +113,17 @@ nav {
 	border-radius: 10px;
 }
 .container1{
-	background-color: #97A9BD;
+	background-color: #9FE2BF;
 
 }
 .container2{
-	background-color:#A197BD;
+	background-color:#CCCCFF;
 }
 .container3{
-	background-color: #BDA697;
+	background-color: #f2b4a3;
 }
 .container4 {
-	background-color: #97BDAB;
+	background-color: #ecbccb;
 }
 .container1 a i,.container2 a i,.container3 a i,.container4 a i{
 	color: gray ;
@@ -139,7 +139,7 @@ nav {
 	align-items: center;
 }
 .offer{
-	background-color: #97A9BD;
+	background-color: #DE3163;
 	font-size: 17px;
 	text-align: center;
 	margin-left: 35%;
