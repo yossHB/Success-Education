@@ -208,7 +208,9 @@ nav {
   cursor: pointer;
 	height: 30px;
 	padding-top: 3px;
-	padding-left: 8px;
+}
+a.button-style {
+    text-align: center;
 }
 .buttons{
 		align-items:end;
@@ -327,7 +329,7 @@ footer{
 	padding-top: 23px;
 	font-size: 30px;
 	display: grid;
-	background-color:#F6C090;
+	background-color:#fa9746;
 	height: 61px;
 	width: 45%;
 	justify-content:center;
