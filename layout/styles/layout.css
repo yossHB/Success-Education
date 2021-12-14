@@ -455,3 +455,13 @@ td {
 	background-color: #F6C090;
 	text-decoration: none;
 }
+.faicon {
+	color: white;
+    padding: 7px;
+    font-size: 12px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid white;
+}

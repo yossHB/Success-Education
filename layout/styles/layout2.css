@@ -1,0 +1,299 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 15px;
+	 font-family: 'Josefin Sans', sans-serif ;
+}
+/*********************/
+/*** nav bar style ***/
+/*********************/
+nav {
+	background-color: #E6F4F4;
+	height: 60px;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/** logo **/
+.navbarlogo{
+	width: 240px;
+	height: auto;
+	margin-top: 8px;
+}
+/** menu + compte **/
+.navbar ul{
+	display: flex;
+	list-style:none;
+	margin-right: 4%;
+	background: #E6F4F4;
+}
+.navbar ul li{
+	position: relative;
+	list-style: none;
+	display:inline-block;
+}
+.navbar li a{
+	display:block;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color:black;
+}
+.navbar ul li a:hover{
+	color:#E6F4F4;
+	background-color:#F59545;
+}
+.navbar ul ul{
+	position: absolute;
+	display: none;
+}
+.navbar ul li:hover > ul{
+	display: block;
+}
+.menu li:first-child{
+
+	text-align: center;
+
+
+}
+.navbar ul ul li{
+	width: 100px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+ p.deba{
+
+  color:black;
+
+  display: grid;
+  justify-content: center;
+
+
+
+}
+a{
+  color:white;
+}
+
+
+
+
+
+/*********************/
+/**      footer     **/
+/*********************/
+footer{
+	background-color: #F6C090;
+	color: black;
+	display:grid;
+	justify-content:center;
+	align-items: center;
+	margin: 0;
+}
+/** contact **/
+.sectiontitle{
+	text-align: center;
+	font-size: 30px;
+	padding: 5%;
+  color:white;
+}
+.block{
+	background-color: #F6C090;
+	font-size: 20px;
+	color: black;
+	display: grid;
+  grid-template-columns: 45% 57% 57%;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 5%;
+}
+/** logo **/
+.box1{
+	width: 210px;
+	height: auto;
+}
+.box2{
+	list-style:none;
+  display: grid;
+}
+.box2 li,.box3 li{
+	margin: 11px;
+}
+.box3{
+	list-style:none;
+  display: grid;
+}
+/** icons **/
+.faicon-facebook{
+  padding: 7px;
+  font-size: 12px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+ border: 2px solid white;}
+ .faicon-google-plus{
+   padding: 6px;
+   font-size: 11px;
+   width: 10px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+  border: 2px solid white;}
+  .faicon-linkedin{
+    padding: 7px;
+    font-size: 12px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+   border: 2px solid white;}
+   .faicon-twitter{
+     padding: 7px;
+     font-size: 12px;
+     width: 10px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 50%;
+    border: 2px solid white;}
+    .faicon-vk{
+      padding: 7px;
+      font-size: 12px;
+      width: 10px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+     border: 2px solid white;}
+     .faicon-phone{
+       padding: 7px;
+       font-size: 12px;
+       width: 10px;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 50%;
+      border: 2px solid white;}
+      .faicon-email{
+        padding: 7px;
+        font-size: 12px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+       border: 2px solid white;}
+
+
+.block a:hover{color:#E6F4F4;}
+.faicon-dribble:hover{background-color:#EA4C89;}
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-google-plus:hover{background-color:#DB4A39;}
+.faicon-linkedin:hover{background-color:#0E76A8;}
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-vk:hover{background-color:#4E658E;}
+.faicon-phone:hover{background-color:#AFCFA0;}
+.faicon-email:hover{background-color:#993300;}
+.faicon-position:hover{background-color:#3B5998;}
+
+/*********************/
+/**     copyright   **/
+/*********************/
+.copyright{
+	background-color: gray;
+  margin:0;
+	padding:9px;
+	text-align: center;
+	font-size: 17px;
+	width: 100%;
+}
+
+
+
+
+/*********************/
+/**    signup   **/
+/*********************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+
+.containerforms{
+	display: grid;
+  background-color: #F0FFFF;
+
+	margin: 30px;
+	display: grid;
+	justify-content: center;
+	padding: 2%;
+	width:50%;
+   border-radius: 25px;
+   border: 2px solid blue;
+
+}
+body{
+  vertical-align: middle;
+}
+fieldset{
+	background-color: lightblue;
+
+	margin: 30px;
+	display: grid;
+	justify-content: center;
+	padding: 2%;
+	width:102%;
+}
+legend{
+	color: orange;
+	font-family: 'Playfair display', sans_serif;
+	text-shadow: 2px 2px 5px orange;
+  margin: 20px;
+	display: grid;
+
+	padding: 1%;
+	width:12%;
+
+   border-radius: 25px;
+   border: 2px solid black;
+}
+table{
+	display: flex;
+	justify-content: center;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+}
+.form{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+}
+.formend{
+	display: grid;
+  grid-template-rows: 63% 60%;
+  margin: 4%;
+  padding: 2%;
+}
+.form_bottun{
+	display: grid;
+  grid-template-columns: 100% 100%;
+	justify-items: center;
+}
+
+p button{
+  text-decoration:underline;
+}
+.btn {
+    padding: 2%;
+    width: 170px;
+    border-radius: 10px;
+    background-color: #F6C090;
+    text-decoration: none;
+}
